@@ -1,28 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: com.example.springapp.SpringappApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 9, Errors: 0, Skipped: 0, Time elapsed: 4.211 s <<< FAILURE! - in com.example.springapp.SpringappApplicationTests
-testgetByID  Time elapsed: 0.353 s  <<< FAILURE!
+Tests run: 9, Failures: 9, Errors: 0, Skipped: 0, Time elapsed: 4.295 s <<< FAILURE! - in com.example.springapp.SpringappApplicationTests
+testgetByID  Time elapsed: 0.331 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.example.springapp.SpringappApplicationTests.testgetByID(SpringappApplicationTests.java:40)
 
-testrepositoryfolder  Time elapsed: 0.009 s  <<< FAILURE!
+testrepositoryfolder  Time elapsed: 0.006 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at com.example.springapp.SpringappApplicationTests.testrepositoryfolder(SpringappApplicationTests.java:80)
 
-testModelFile  Time elapsed: 0.003 s  <<< FAILURE!
+testModelFile  Time elapsed: 0.002 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at com.example.springapp.SpringappApplicationTests.testModelFile(SpringappApplicationTests.java:73)
 
-testModelFolder  Time elapsed: 0.004 s  <<< FAILURE!
+testModelFolder  Time elapsed: 0.002 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at com.example.springapp.SpringappApplicationTests.testModelFolder(SpringappApplicationTests.java:65)
 
-testServiceFolder  Time elapsed: 0.003 s  <<< FAILURE!
+testServiceFolder  Time elapsed: 0.002 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at com.example.springapp.SpringappApplicationTests.testServiceFolder(SpringappApplicationTests.java:95)
 
-testrepositoryFile  Time elapsed: 0.003 s  <<< FAILURE!
+testrepositoryFile  Time elapsed: 0.002 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at com.example.springapp.SpringappApplicationTests.testrepositoryFile(SpringappApplicationTests.java:88)
 
