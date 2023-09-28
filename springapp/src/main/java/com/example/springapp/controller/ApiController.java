@@ -15,7 +15,7 @@ public class ApiController {
     @GetMapping("/api/employee/{employeeId}")
     public Employee getEmployeeById(@PathVariable(value="employeeId" )int empId)
     {
-        Employee empList=service.getEmployeeById(empId);
-        return empList;
+        Employee emp=service.getEmployeeById(empId);
+        return emp;
     }
 }

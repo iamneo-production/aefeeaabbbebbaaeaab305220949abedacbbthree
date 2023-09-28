@@ -6,8 +6,8 @@ public class EmployeeService {
 
     public Employee getEmployeeById(int empNo)
     {
-     List<Employee> empList= empRepo.getEmployees();
-     
+    
+     Employee employee=   empRepo.getEmployeeById(empNo);
         
         return employee;
     }
