@@ -52,10 +52,9 @@ public Employee(int employeeId, String employeeName, String email, long mobile )
 }
 @Override
 public String toString() {
-    return "Employee [address=" + address + ", department=" + department + ", email=" + email + ", employeeId="
-            + employeeId + ", employeeName=" + employeeName + ", mobile=" + mobile + ", roll=" + roll + ", salary="
-            + salary + "]";
+    return "Employee [email=" + email + ", employeeId=" + employeeId + ", employeeName=" + employeeName + ", mobile="
+            + mobile + "]";
 }
-   
+
     
 }
