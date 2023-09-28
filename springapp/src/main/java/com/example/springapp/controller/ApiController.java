@@ -4,7 +4,7 @@ package java.com.examly.springapp.controller;
 public class ApiController {
  
     @Autowired
-    EmployeeService empSer;
+    ApiService service;
 
     @GetMapping("/test")
     public String showMsg()
@@ -13,9 +13,9 @@ public class ApiController {
     }
 
     @GetMapping("/api/employee/{employeeId}")
-    public List<Employee> getEmployeeWithSalaryHigherThan(@PathVariable(value="employeeId" )int empId)
+    public Employee getEmployeeById(@PathVariable(value="employeeId" )int empId)
     {
-        List<Employee> empList=empSer.getEmployeeWithSalaryHigherThan(sal);
+        Employee empList=service.getEmployeeById(empId);
         return empList;
     }
 }
